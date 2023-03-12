@@ -1,0 +1,27 @@
+<table_1>
+
+  <Mobile_Phone sc="1">
+    <SL_ID> 11 </SL_ID>
+    <Phone_Company_Name> Samsung </Phone_Company_Name>
+    <Price_per_Unit> 35000 </Price_per_Unit>
+    <Available_Stock> 50 </Available_Stock>
+    <Current_Status> 1 </Current_Status>
+  </Mobile_Phone>
+
+  <Mobile_Phone sc="2">
+    <SL_ID> 20 </SL_ID>
+    <Phone_Company_Name> HTC </Phone_Company_Name>
+    <Price_per_Unit> 65300 </Price_per_Unit>
+    <Available_Stock> 35 </Available_Stock>
+    <Current_Status> 0 </Current_Status>
+  </Mobile_Phone>
+
+  <Mobile_Phone sc="3">
+    <SL_ID> 23 </SL_ID>
+    <Phone_Company_Name> Nokia </Phone_Company_Name>
+    <Price_per_Unit> 25100 </Price_per_Unit>
+    <Available_Stock> 100 </Available_Stock>
+    <Current_Status> 1 </Current_Status>
+  </Mobile_Phone>
+  
+</table_1>
