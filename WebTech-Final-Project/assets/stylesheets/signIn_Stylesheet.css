@@ -1,0 +1,202 @@
+body
+{
+    background-image: url(../graphics/general_background.jpg);
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.signin-box
+{
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+    padding: 10px 10px;
+    background-color: #FFC248;
+    height: 425px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: 5px solid black;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-box
+{
+    text-align: left;
+}
+
+input
+{
+    background-color: #252525;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+    width: 265px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: black;
+    padding: 10px 10px;
+}
+
+input:focus
+{
+    outline: 3px solid whitesmoke;
+}
+
+.check-box
+{
+    width: 15px;
+    height: 15px;
+}
+
+table
+{
+    margin-bottom: 25px;
+}
+
+#button
+{
+    background-color: rgb(25, 25, 25);
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: #FFC248;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#button:hover
+{
+    background-color: rgb(75, 75, 75);
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+.siginbutton
+{
+    text-align: center;
+}
+
+#companyname
+{
+    text-align: center;
+}
+
+#message-box.show
+{
+    background-color: rgb(25, 25, 25);
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+    padding: 5px 20px;
+    width: 250px;
+    height: 80px;
+    position: fixed;
+    left: 75%;
+    top: 0%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    animation: slideTop 3s ease-in-out forwards;
+}
+
+@keyframes slideTop 
+{
+    0% 
+    {
+        transform: translateY(-100px);
+    }
+    50% 
+    {
+        transform: translateY(15%);
+    }
+    100% 
+    {
+        transform: translateY(5%);
+    }
+}
+
+#message-text
+{
+    color: #FFC248;
+    font-size: 16px;
+    text-align: center;
+}
+
+.links
+{   
+    margin-bottom: 25px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#signup-link
+{
+    text-decoration: none;
+    color: mediumblue;
+}
+
+#signup-link:hover
+{
+    text-decoration: underline;
+}
+
+#button-forgotpass
+{
+    background-color: rgb(0, 145, 255);
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 3px solid black;
+    color: rgb(25, 25, 25);
+    padding: 5px 50px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.siginbutton
+{
+    text-align: center;
+}
+
+.forgotpasswordbutton
+{
+    text-align: center;
+}
+
+#button-forgotpass:hover
+{
+    background-color: rgb(80, 165, 255);
+}
+
+#show-password
+{
+    text-decoration: none;
+    background-color: rgba(25, 25, 25, 0);
+    border: none;
+    color: #FFC248;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 75%;
+    top: 51%;
+}
+
+#show-password:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
